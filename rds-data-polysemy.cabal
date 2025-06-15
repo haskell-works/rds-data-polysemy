@@ -1,7 +1,7 @@
 cabal-version: 3.6
 
-name:                   rds-data
-version:                0.1.1.4
+name:                   rds-data-polysemy
+version:                0.1.0.0
 synopsis:               Codecs for use with AWS rds-data
 description:            Codecs for use with AWS rds-data.
 category:               Data
@@ -140,8 +140,8 @@ library codecs
                         Data.RdsData.Types.EncodedParams
                         Data.RdsData.Types.Param
                         Data.RdsData.Types.Value
-  other-modules:        Paths_rds_data
-  autogen-modules:      Paths_rds_data
+  other-modules:        Paths_rds_data_polysemy
+  autogen-modules:      Paths_rds_data_polysemy
   hs-source-dirs:       src
 
 library polysemy
